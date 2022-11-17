@@ -1,0 +1,83 @@
+body {
+    height: 100vh;
+    margin: 0;
+
+}
+
+.center {
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    padding: 0;
+
+}
+
+.row {
+    background-color: black;
+    height: 100%;
+}
+
+.left-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 10px;
+}
+
+img {
+    height: 40px;
+    width: 40px;
+    margin-bottom: 14px;
+}
+
+.left-menu {
+    margin: 15px 0;
+    color: white;
+    font-size: larger;
+}
+
+.search-box {
+    margin-top: 10px;
+    width: 100%;
+    background-color: white;
+    border: none;
+    height: 40px;
+    border-radius: 30px;
+}
+
+.banner-img {
+
+    background: url("https://i.annihil.us/u/prod/marvel/images/OpenGraph-TW-1200x630.jpg");
+
+    background-attachment: fixed !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: rgb(255, 255, 255);
+    background-size: 100%;
+    height: 330px;
+    padding: 20px;
+}
+
+.top-news {
+    display: flex;
+    height: 120px;
+    color: white;
+    padding: 16px;
+    margin-bottom: 36px;
+}
+
+/* Select all p descendants */
+.top-news p:nth-child(1),
+.top-news p:nth-child(3) {
+    color: grey;
+    font-size: smaller;
+}
+
+.top-news img {
+    border-radius: 12px;
+}
+
+.top-news p:nth-child(2) {
+    color: white;
+    font-size: large;
+}

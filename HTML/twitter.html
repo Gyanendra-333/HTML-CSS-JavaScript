@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twitter | Home</title>
+    <!-- CSS only -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+
+</head>
+
+<body>
+    <div class="row">
+        <div class="col-3">
+            <div class="left-container">
+                <img src="data:image/png;base64,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"
+                    alt="">
+                <h3 class="left-menu"># Explorer</h3>
+                <h3 class="left-menu"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-gear" viewBox="0 0 16 16">
+                        <path
+                            d="M8 4.754a3.246 3.246 0 1 0 0 6.492 3.246 3.246 0 0 0 0-6.492zM5.754 8a2.246 2.246 0 1 1 4.492 0 2.246 2.246 0 0 1-4.492 0z" />
+                        <path
+                            d="M9.796 1.343c-.527-1.79-3.065-1.79-3.592 0l-.094.319a.873.873 0 0 1-1.255.52l-.292-.16c-1.64-.892-3.433.902-2.54 2.541l.159.292a.873.873 0 0 1-.52 1.255l-.319.094c-1.79.527-1.79 3.065 0 3.592l.319.094a.873.873 0 0 1 .52 1.255l-.16.292c-.892 1.64.901 3.434 2.541 2.54l.292-.159a.873.873 0 0 1 1.255.52l.094.319c.527 1.79 3.065 1.79 3.592 0l.094-.319a.873.873 0 0 1 1.255-.52l.292.16c1.64.893 3.434-.902 2.54-2.541l-.159-.292a.873.873 0 0 1 .52-1.255l.319-.094c1.79-.527 1.79-3.065 0-3.592l-.319-.094a.873.873 0 0 1-.52-1.255l.16-.292c.893-1.64-.902-3.433-2.541-2.54l-.292.159a.873.873 0 0 1-1.255-.52l-.094-.319zm-2.633.283c.246-.835 1.428-.835 1.674 0l.094.319a1.873 1.873 0 0 0 2.693 1.115l.291-.16c.764-.415 1.6.42 1.184 1.185l-.159.292a1.873 1.873 0 0 0 1.116 2.692l.318.094c.835.246.835 1.428 0 1.674l-.319.094a1.873 1.873 0 0 0-1.115 2.693l.16.291c.415.764-.42 1.6-1.185 1.184l-.291-.159a1.873 1.873 0 0 0-2.693 1.116l-.094.318c-.246.835-1.428.835-1.674 0l-.094-.319a1.873 1.873 0 0 0-2.692-1.115l-.292.16c-.764.415-1.6-.42-1.184-1.185l.159-.291A1.873 1.873 0 0 0 1.945 8.93l-.319-.094c-.835-.246-.835-1.428 0-1.674l.319-.094A1.873 1.873 0 0 0 3.06 4.377l-.16-.292c-.415-.764.42-1.6 1.185-1.184l.292.159a1.873 1.873 0 0 0 2.692-1.115l.094-.319z" />
+                    </svg>&nbsp;&nbsp;Setting</h3>
+            </div>
+        </div>
+        <div class="col-6 center">
+
+            <input type="search" class="search-box" placeholder="search Twitter">
+
+            <ul class="nav nav-pills">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">For You</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                        aria-expanded="false">Others</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Trending</a></li>
+                        <li><a class="dropdown-item" href="#">News</a></li>
+                        <li><a class="dropdown-item" href="#">Sports</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Entertainment</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">LIVE</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link">Tweets</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link">Social</a>
+                </li>
+            </ul>
+            <!-- Banner image -->
+
+            <div class="banner-img">
+                <p>Marvel National News</p>
+                <h3>Upcoming Marvel Movie THOR | LOVE AND THUNDER</h3>
+                <p># Trendig With American News Express</p>
+
+            </div>
+
+            <div class="top-news">
+
+                <div style="width: 82%">
+                    <p>World News . 2 hours ago</p>
+                    <p>Former prime minister Imran Khan injured.</p>
+                    <p>Trending with #Firing #Pakistan</p>
+                </div>
+                <div style="width: 18%">
+                    <img style="height: 100%; width:100%"
+                        src="https://pbs.twimg.com/semantic_core_img/1588145716974817282/nVQtPCoE?format=jpg&name=240x240"
+                        alt="">
+                </div>
+            </div>
+
+            <div class="top-news">
+                <div style="width: 82%">
+                    <p>Entertainment . LIVE </p>
+                    <p>All the action for season 6 of big boss.</p>
+                    <p>Trending with #BigBoss</p>
+                </div>
+                <div style="width: 18%">
+                    <img style="height: 100%; width:100%"
+                        src="https://pbs.twimg.com/semantic_core_img/1587472328321114113/em4zZFm3?format=jpg&name=360x360"
+                        alt="">
+                </div>
+            </div>
+
+            <div class="top-news">
+                <div style="width: 82%">
+                    <p>World News . LIVE </p>
+                    <p>NASA is using flash light to find drinking water on moon.</p>
+                    <p>Trending with #Nasa #Moon</p>
+                </div>
+                <div style="width: 18%">
+                    <img style="height: 100%; width:100%"
+                        src="https://pbs.twimg.com/media/FgfuK3HVEAAOigx?format=jpg&name=360x360" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="card text-center">
+        <div class="card-header">
+            <ul class="nav nav-pills card-header-pills">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">About us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled">Help </a>
+                </li>
+            </ul>
+        </div>
+        <div class="card-body">
+            <h5 class="card-title">Don't Miss What's Happining</h5>
+            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            <a href="#" class="btn btn-primary">Follow us</a>
+        </div>
+    </div>
+
+    <div class="col-3">
+        <button type="button" class="btn btn-primary login">Log in</button>
+        <button type="button" class="btn btn-primary signup">Sign Up</button>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,159 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.header__logo{
+    height: 40px;
+    width: 10%;
+}
+
+.header__address{
+    width: 10%;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #131920;
+    padding: 5px 20px;
+}
+
+
+.header__searchbox{
+    height: 35px;
+    width: 350px;
+    padding: 0 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.header__input__section{
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    min-width: 80%;
+}
+
+.header__search__icon{
+    padding: 10px;
+    background-color: orange;
+    /* border-radius: 0 5px 5px 0; */
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.header__address{
+    color: white;
+    margin: 0 20px;
+}
+
+.header__signupbutton,
+.header__loginbutton{
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: orange;
+    color: white;
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+.header__carticon{
+    color: white;
+}
+
+.header__section1{
+    display: flex;
+    align-items: center;
+    width: 80%;
+}
+
+.carousal__bootstrap{
+    max-height: 350px;
+    overflow: hidden;
+}
+
+.footer{
+    width: 100%;
+    background-color: rgb(47, 47, 47);
+    min-height: 100px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.products{
+    margin: 30px 10px;
+}
+
+.product__list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.product{
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    min-width: 200px;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 10px;
+    /* border: 1px solid rgb(183, 183, 183); */
+    box-shadow: 0 8px 6px -2px rgb(63, 63, 63);
+}
+
+
+.product:hover{
+    position: relative;
+    bottom: 10px;
+    transition: 0.5s;
+}
+
+.product__image{
+    max-width: 200px;
+    max-height: 350px;
+    overflow: hidden;
+}
+
+.product__details{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product__price{
+    font-weight: bold;
+}
+.product__rating{
+    background-color: green;
+    padding: 2px 4px;
+    font-size: 8px;
+    color: white;
+    border-radius: 3px;
+    width: 35px;
+}
+
+.product__addtocart{
+    background-color: gold;
+    border-radius: 4px;
+    padding: 5px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.product__price__rating{
+    display: flex;
+    flex-direction: column;
+}
+
+

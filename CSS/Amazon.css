@@ -1,0 +1,99 @@
+.top_Header {
+    background-color: rgb(26, 38, 107);
+    height: 50px;
+    display: flex;
+}
+
+.icon_cover {
+    margin-top: -10px
+}
+
+.icon {
+    color: rgb(238, 231, 236);
+
+}
+
+.companyName {
+    margin-left: 10px;
+    color: rgb(237, 191, 5);
+    font-size: small;
+}
+
+.tag {
+    font-size: smaller;
+    color: rgb(79, 235, 17);
+}
+
+.header_Left {
+    display: flex;
+    padding-left: 20px;
+    width: 40%;
+    align-items: center;
+}
+
+.header_Right {
+    padding: 8px;
+    width: 60%;
+    display: flex;
+    justify-content: end;
+}
+
+.btn-editor {
+    margin-right: 6px;
+    height: 34px;
+    padding: 8px;
+    background-color: rgb(129, 124, 27);
+    border: 1px groove rgb(9, 246, 13);
+    font-size: small;
+    color: white;
+    border-radius: 2px;
+}
+
+.cover {
+    display: flex;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    background-color: #37585c;
+    color: rgb(238, 240, 249);
+    flex-direction: column;
+}
+
+.cover_text {
+    font-size: x-large;
+}
+
+.cover_tag {
+    font-size: smaller;
+    color: rgb(13, 237, 46);
+}
+
+.card-body {
+    text-align: center;
+}
+
+.btn-cart {
+    background-color: white;
+    color: gray;
+    border: 1px solid lightgray;
+}
+
+.star {
+    color: gold;
+}
+
+body {
+    margin: 0;
+}
+
+.footer {
+    height: 54px;
+    background-color: #36454F;
+    position: fixed;
+    bottom: 0;
+    color: lightgray;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
